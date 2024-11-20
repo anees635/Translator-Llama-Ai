@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Translator-Llama-Ai/tree/main/fapp/static/css/main.6a3d79f3.css",
+    "main.js": "/Translator-Llama-Ai/tree/main/fapp/static/js/main.b951bb08.js",
+    "static/js/453.122f7282.chunk.js": "/Translator-Llama-Ai/tree/main/fapp/static/js/453.122f7282.chunk.js",
+    "index.html": "/Translator-Llama-Ai/tree/main/fapp/index.html",
+    "main.6a3d79f3.css.map": "/Translator-Llama-Ai/tree/main/fapp/static/css/main.6a3d79f3.css.map",
+    "main.b951bb08.js.map": "/Translator-Llama-Ai/tree/main/fapp/static/js/main.b951bb08.js.map",
+    "453.122f7282.chunk.js.map": "/Translator-Llama-Ai/tree/main/fapp/static/js/453.122f7282.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a3d79f3.css",
+    "static/js/main.b951bb08.js"
+  ]
+}
