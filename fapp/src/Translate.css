@@ -1,0 +1,31 @@
+*{
+    font-family:  Helvetica
+}
+h2{
+    padding: 20px;
+}
+.flexcontainer{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.textarea  :focus{
+    all: unset;
+    outline: none;
+    border: none;
+}
+.textarea{
+    overflow: auto;
+    resize: none;
+}
+label{
+    font-size: 25px;
+    font-weight: bold;
+}
+.subbtn{
+    width: 100px;
+    border-radius: 16px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
