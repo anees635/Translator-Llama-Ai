@@ -1,0 +1,22 @@
+1. Create express backend (to integrate ai) 
+       |
+       |---> installing express
+       |---> installing groq cloud
+       |---> using groq cloud 
+       |
+       |---> usign api key to run the ai model
+
+2. Create REST api (a bridge b/w frontend and backend)
+       |
+       |---> take request from frontend and send to ai model's server
+       |
+       |---> accept response in json format and send to frontend
+
+3. Create frontend
+       |
+       |---> using react
+
+4. starting all servers to check the projext locally
+
+
+    

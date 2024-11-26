@@ -3,18 +3,18 @@ import axios from 'axios';
 import './Translate.css'
 
 export default function Translatesec() {
-  // variables
+  // variables / hooks
   const [text, settext] = useState("");
-  const targetLanguage = 'Urdu';
-  const [translation, setTranslation] = useState("")
+  const targetLanguage = 'Urdu'; // set language 
+  const [translation, setTranslation] = useState("")   // set response in translation hook
 
   // handle the submit of user 
   // give request to api
   const handlesubmit = async (e)=>{
     e.preventDefault();
-    console.log(text);
+    
     try{
-      console.log("In try");
+  
       // give request to api
       const response = await axios.post ("http://localhost:8080/translate", {text, targetLanguage});
        
@@ -34,11 +34,11 @@ export default function Translatesec() {
 
       {/* input field */}
 
-
-    <form onSubmit={handlesubmit}>
+     
+    <form onSubmit={handlesubmit}>   {/* form  and call handlesubmit to send request to api*/}
       <div className="flexcontainer">
        <label for="Textarea">English</label>
-
+        {/* using textarea */}
        <textarea class="textarea" onChange={(e)=>settext(e.target.value)} rows="5" cols="50"placeholder="Enter text in english" id="Textarea" value={text}></textarea>
        
       
