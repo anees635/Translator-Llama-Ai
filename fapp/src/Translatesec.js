@@ -5,24 +5,25 @@ import './Translate.css'
 export default function Translatesec() {
   // variables
   const [text, settext] = useState("");
-  const source_language = 'English';
-  const target_language = 'French';
+  const targetLanguage = 'Urdu';
   const [translation, setTranslation] = useState("")
 
   // handle the submit of user 
   // give request to api
   const handlesubmit = async (e)=>{
     e.preventDefault();
-
+    console.log(text);
     try{
-      const response = await axios.post ("http://localhost:000/translate", {text, source_language, target_language});
+      console.log("In try");
+      // give request to api
+      const response = await axios.post ("http://localhost:8080/translate", {text, targetLanguage});
        
-      setTranslation(response.data.translated_text)
+      setTranslation(response.data.translatedText)
 
     }
     catch(error){
       console.error("Error during translation:", error);
-      alert("Error during translation:", error)
+      alert("Error during translation", error)
     }
   }
   return (
