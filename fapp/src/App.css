@@ -6,5 +6,24 @@
     color: white;
     background-color: rgb(39, 39, 39) ;
     padding: 10px;
-    font-size: 2vw;
+    font-size: 35px;
 }
+@media screen and (max-width: 575px) {
+  .header01{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .header01{
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .header01{
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 992px){
+  
+}
+

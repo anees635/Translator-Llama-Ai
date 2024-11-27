@@ -30,7 +30,7 @@ export default function Translatesec() {
   <div>
       {/* header */}
 
-      <h2>Translate Text from English to Urdu</h2>
+      <p className='header2'>Translate Text from English to Urdu</p>
 
       {/* input field */}
 
@@ -39,7 +39,7 @@ export default function Translatesec() {
       <div className="flexcontainer">
        <label for="Textarea">English</label>
         {/* using textarea */}
-       <textarea class="textarea" onChange={(e)=>settext(e.target.value)} rows="5" cols="50"placeholder="Enter text in english" id="Textarea" value={text}></textarea>
+       <textarea class="textarea" onChange={(e)=>settext(e.target.value)} placeholder="Enter text in english" id="Textarea" value={text}></textarea>
        
       
        
@@ -47,11 +47,13 @@ export default function Translatesec() {
       <div className="flexcontainer">
          <label for="Textarea">Urdu</label>
 
-         <textarea class="textarea" rows="5" cols="50"placeholder="Translated text" id="Textarea" value={translation}></textarea>
+         <textarea class="textarea" placeholder="Translated text" id="Textarea" value={translation}></textarea>
         
       </div>
        {/* submit button*/}
-      <button type="submit" className='subbtn'>Translate</button>
+       <div>
+      <button type="submit" className='subbtn '>Translate</button>
+      </div>
     </form>
   </div>
   )

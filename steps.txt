@@ -18,5 +18,9 @@
 
 4. starting all servers to check the projext locally
 
+5. Deploy projext on vercel
+
+6. After Deploy run and check it remotely
+
 
     

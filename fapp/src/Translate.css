@@ -1,31 +1,109 @@
-*{
-    font-family:  Helvetica
+* {
+  font-family: Helvetica;
 }
-h2{
-    padding: 20px;
+h2 {
+  padding: 20px;
 }
-.flexcontainer{
-    display: inline-flex;
-    flex-direction: column;
-    padding: 20px;
+.flexcontainer {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 20px;
 }
-.textarea  :focus{
-    all: unset;
-    outline: none;
-    border: none;
+.textarea :focus {
+  all: unset;
+  outline: none;
+  border: none;
 }
-.textarea{
-    overflow: auto;
-    resize: none;
+.textarea {
+  overflow: auto;
+  resize: none;
 }
-label{
-    font-size: 25px;
-    font-weight: bold;
+label {
+  font-size: 25px;
+  font-weight: bold;
 }
-.subbtn{
-    width: 100px;
-    border-radius: 16px;
-    margin-top: 20px;
-    background-color: black;
-    color: white;
+.subbtn {
+  width: 100px;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  padding: 8px;
+  margin: 20px;
+  text-align: center;
+  &:hover{
+    background-color: black ;
+    transition-duration: 1s;
+  }
+}
+.header2 {
+  font-size: 35px;
+}
+.textarea {
+  width: 700px;
+  height: 100px;
+}
+.subbtn {
+  font-size: 15px;
+  width: 125px;
+  height: 40px;
+}
+@media screen and (max-width: 460px) {
+  .header2 {
+    font-size: 20px;
+  }
+  .textarea {
+    width: 300px;
+    height: 100px;
+  }
+  .subbtn{
+    font-size: 14px;
+   width: 108px;
+   height: 38px;
+}
+}
+@media screen and (min-width: 460px) and (max-width: 575px) {
+  .header2 {
+    font-size: 20px;
+  }
+  .textarea {
+    width: 400px;
+    height: 100px;
+  }
+  .subbtn{
+    font-size: 14px;
+   width: 112px;
+   height: 38px;
+}
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .header2 {
+    font-size: 23px;
+  }
+  .textarea {
+    width: 500px;
+    height: 100px;
+  }
+  .subbtn {
+    font-size: 15px;
+    width: 115px;
+    height: 40px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .header2 {
+    font-size: 30px;
+  }
+  .textarea {
+    width: 500px;
+    height: 100px;
+  }
+  .subbtn {
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
 }
