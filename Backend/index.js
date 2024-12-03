@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 // after installing groq import it
 import Groq from "groq-sdk";
 dotenv.config();
-const app = express();
+const app = express();  
 
 // to run server on port
 const port = process.env.PORT || 5000; 
